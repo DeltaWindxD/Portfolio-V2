@@ -1,0 +1,143 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.wrapper #rad1 {
+    background-color: rgb(152, 188, 221);
+    padding: 10px;
+}
+
+.wrapper #rad2 {
+    display: flex;
+    background-color: rgb(152, 188, 221);
+    flex: 1 1 auto;
+}
+
+.wrapper #rad2 #col1 {
+    border: black solid 1px;
+    background-color: rgb(152, 188, 221);
+    flex: 0 0 520px;
+    padding: 10px;
+}
+
+.wrapper #rad2 #col2 {
+    border: black solid 1px;
+    background-color: rgb(152, 188, 221);
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.wrapper #rad2 #col3 {
+    border: black solid 1px;
+    background-color: rgb(152, 188, 221);
+    flex: 0 0 520px;
+    padding: 10px;
+}
+
+.menu {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.reklam {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.reklambild {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+}
+
+.innehåll {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titel {
+    color: black;
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+.innehålltext {
+    color: rgb(182, 79, 48);
+    font-size: 20px;
+}
+
+.knapp1 {
+    background-color: rgb(182, 79, 48);
+    font-size: 30px;
+}
+
+.knapp1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.knapp2 {
+    background-color: rgb(182, 79, 48);
+    font-size: 30px;
+}
+
+.knapp2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a {
+    margin-top: 10px;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* --------------------About.html--------------------- */
+
+.maintext {
+    font-size: 35px;
+    color: orange;
+    text-align: center;
+
+}
+
+.about2 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+.title {
+    font-size: 75px;
+    margin-left: 740px;
+    color: rgb(231, 116, 0);
+}
