@@ -10,7 +10,7 @@ a{
 }
 
 .bg-image{
-    position: absolute;
+    position: fixed;
     background-image: url("Images2/bakgrund2.gif"); 
     filter: blur(8px);
     -webkit-filter: blur(8px);
